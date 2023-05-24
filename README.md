@@ -10,18 +10,18 @@ It consists of administering 2 sets of questions. Set 1 is administered to all p
 To derive the Number series score and standard error summary variables, we used the Health and Retirement Study (HRS) 2012 Number Series Code orginally developed in SAS software.
 
 **Raw data variables should include:**
-* the list (A or B)
-* the 15 items for list A 
-* the 15 items for list B
-* other variables about tests administration (if any)
+* The list (A or B)
+* The 15 items for list A 
+* The 15 items for list B
+* Other variables about tests administration (if any)
 
 **Derived variables include:**
-* the score for set 1 (0 to 3) (intermediate variable)
-* the score for set 2 (0 to 3) (intermediate variable)
-* the Number series score (summary variable)
+* The score for set 1 (0 to 3) (intermediate variable)
+* The score for set 2 (0 to 3) (intermediate variable)
+* The Number series score (summary variable)
 * The standard error (summary variable)
 
-*The excel file NS_variables.xlsx* includes details about the raw data variables, labels and coding. 
+*The excel file NS_variables.xlsx* includes details about the raw data variables, labels, and coding. 
 
 *The Stata code file Number_series.do* includes data management steps and derivation steps of the intermediate and summary variables.
 
