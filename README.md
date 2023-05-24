@@ -25,7 +25,7 @@ To derive the Number series score and standard error summary variables, we used 
 
 *The Stata code file Number_series.do* includes data management steps and derivation steps of the intermediate and summary variables.
 
-**For queries, please email Dr Assaad at: s.assaad@ucl.ac.uk **
+**For queries, please email Dr Assaad at:** s.assaad@ucl.ac.uk
 
 *Usage*: this code is provided under the creative commons license as an open source subject to citation.
 
