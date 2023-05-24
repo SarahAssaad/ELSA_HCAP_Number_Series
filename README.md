@@ -29,7 +29,7 @@ To derive the Number series score and standard error summary variables, we used 
 
 *Usage*: this code is provided under the creative commons license as an open source subject to citation.
 
-*Citation*:  Assaad S. 2023. ELSA-HCAP study: Derivation of the Number Series summary variables. STATA 17 code, version 1.0. 
+*Citation*:  Assaad S. 2023. ELSA-HCAP study: Derivation of the summary variables for the Number Series Test. STATA 17 code, version 1.0. 
 
 
 
