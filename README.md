@@ -10,7 +10,7 @@ The number series test is used to measure **quantitative reasoning.**
 
 It consists of administering 2 sets of 3 items (or questions) each, making a total of 6 questions per participant. 
 
-The first set (labelled as 'Set 3' in the dataset but referred to as **Set 1** hereafter) is administered to all participants and consists of 3 items (questions 1, 2 and 3) in increasing order of difficulty. Depending on the score of Set 1 (0 to 3), the participant is routed to 1 of 4 available versions of the second set (labelled as 'Set 2', 'Set 4' and 'Set 5' in the dataset but referred to as **Set 2** hereafter) with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items in the dataset is 3 items for set 1 + (3 items x4 sets) for set 2 = 15 items. The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either list at the point of administration.
+The first set (referred to as **Set 1** hereafter) is administered to all participants and consists of 3 items (questions 1, 2 and 3) in increasing order of difficulty. Depending on the score of Set 1 (0 to 3), the participant is routed to 1 of 4 available versions of the second set (referred to as **Set 2** hereafter) with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items in the dataset is 3 items for Set 1 + (3 items x4 sets) for Set 2 = 15 items. The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either lists at the point of administration.
 
 Here is a table summarising the above:
 
@@ -23,7 +23,22 @@ Here is a table summarising the above:
 | | 3 Items in version 3 | 3 Items in version 3 | |
 | Total | 15 Items | 15 Items | 30 Items |
 
-To derive the Number series score and standard error summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
+**Summary variables and derivation method**
+These 30 items collected as raw data can be used to derive two summary variables for the Number Series test:
+* Number Series score
+* Standard error
+  
+To derive these summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
+
+**Dataset files**
+The purpose of this repository is to enable the derivation of the Number Series Summary Variables in any dataset with the raw data adapting the STATA code as needed. 
+
+Two examples of this derivation are provided in the ELSA and ELSA-HCAP studies (please see the table below for the dataset files). Both files are available for download from the UK Data Services website https://ukdataservice.ac.uk/  
+
+| Study | Dataset file name | Study Number in UK Data Services |
+|---| ---| ---|
+| ELSA wave 8 Nurse Visit | wave_8_elsa_nurse_data_eul_v1.dta | SN 5050 |
+| HCAP wave 1 | hcap_2018_eul_respondent_archive.dta | SN 8502 | 
 
 **Raw data variables should include:**
 * The list (A or B)
@@ -32,17 +47,29 @@ To derive the Number series score and standard error summary variables we used t
 * Other variables about tests administration (if any)
 
 **Derived variables include:**
+* The list (A or B) if not included in the raw data
 * The score for set 1 (0 to 3) (intermediate variable)
 * The score for set 2 (0 to 3) (intermediate variable)
-* The Number series score (summary variable)
+* The Number Series score (summary variable)
 * The standard error (summary variable)
 
-*The Excel file NS_variables.xlsx* includes details about the raw data variables, labels, and coding. 
+**Repository files (attached)**
+* The Excel files include details about the raw data variables, labels, and coding.
+* The Stata code files include data management steps and derivation steps of the intermediate and summary variables.
 
-*The Stata code file Number_series.do* includes data management steps and derivation steps of the intermediate and summary variables.
+Below is a summary table with the file names:
 
-**For queries, please email Dr Assaad at** s.assaad@ucl.ac.uk
+| Study | STATA file | Excel file |
+|---|---|---|
+| ELSA | Number_series_elsa.do | NS_variables_elsa.xlsx |
+| HCAP | Number_series_hcap.do | NS_variables_hcap.xlsx |
 
-*Usage*: this code is provided under the creative commons license as an open source subject to citation.
+Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labelled with 'Set 3' and Set 2 corresponds to raw data labelled with 'Set 1', 'Set 2', 'Set 4' and 'Set 5'. This is evident in the Excel files which are to be used in conjunction with the STATA files.
+
+**Final important remarks**
+
+*For queries*: Please email the author, Dr Assaad at s.assaad@ucl.ac.uk
+
+*Usage*: This code is provided under the creative commons license as an open source subject to citation.
 
 *Citation*:  Assaad S. 2023. ELSA-HCAP study: Derivation of the summary variables for the Number Series Test. STATA 17 code, version 1.0. 
