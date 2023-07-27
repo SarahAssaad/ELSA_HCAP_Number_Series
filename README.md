@@ -8,7 +8,19 @@ In this repository, Dr Sarah Assaad, a research fellow in cognitive ageing and d
 
 The number series test is used to measure **quantitative reasoning.** 
 
-It consists of administering 2 sets of questions. Set 1 is administered to all participants and consists of 3 items in increasing order of difficulty. Depending on the score of Set 1 (0 to 3) the participants are routed to 1 of 4 available versions of Set 2 with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items administered to each participant is 6. While the available number of items in the dataset is 3 items + (3 items x4 sets) = 15 items. The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either list at the point of administration.   
+It consists of administering 2 sets of 3 items (or questions) each, making a total of 6 questions per participant. 
+
+The first set (labelled as 'Set 3' in the dataset but referred to as **Set 1** hereafter) is administered to all participants and consists of 3 items (questions 1, 2 and 3) in increasing order of difficulty. Depending on the score of Set 1 (0 to 3), the participant is routed to 1 of 4 available versions of the second set (labelled as 'Set 2', 'Set 4' and 'Set 5' in the dataset but referred to as **Set 2** hereafter) with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items in the dataset is 3 items for set 1 + (3 items x4 sets) for set 2 = 15 items. The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either list at the point of administration.
+
+Here is a table summarising the above:
+
+| | List A  | List B |
+| --- | --- | --- |
+| Set 1 | 3 Items | 3 Items | 
+| Set 2 | 3 Items in version 1 | 3 Items in version 1 | 
+| | 3 Items in version 2 | 3 Items in version 2 | 
+| | 3 Items in version 3 | 3 Items in version 3 | 
+| | 3 Items in version 3 | 3 Items in version 3 | 
 
 To derive the Number series score and standard error summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
 
