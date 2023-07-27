@@ -21,6 +21,7 @@ Here is a table summarising the above:
 | | 3 Items in version 2 | 3 Items in version 2 | 
 | | 3 Items in version 3 | 3 Items in version 3 | 
 | | 3 Items in version 3 | 3 Items in version 3 | 
+| Total | 15 Items | 15 Items | 30 Items |
 
 To derive the Number series score and standard error summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
 
