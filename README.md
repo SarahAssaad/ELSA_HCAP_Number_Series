@@ -23,14 +23,14 @@ Here is a table summarising the above:
 | | 3 Items in version 3 | 3 Items in version 3 | |
 | Total | 15 Items | 15 Items | 30 Items |
 
-**Summary variables and derivation method:**
+**Summary variables and derivation method:**  
 These 30 items collected as raw data can be used to derive two summary variables for the Number Series test:
 * Number Series score
 * Standard error
   
 To derive these summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
 
-**Dataset files:**
+**Dataset files:**  
 The purpose of this repository is to enable the derivation of the Number Series summary variables in any dataset with the raw data adapting the STATA code as needed. 
 
 Two examples of this derivation are provided in the ELSA and ELSA-HCAP studies (please see the table below for the dataset files). Both files are available for download from the UK Data Services website https://ukdataservice.ac.uk/  
@@ -40,20 +40,20 @@ Two examples of this derivation are provided in the ELSA and ELSA-HCAP studies (
 | ELSA wave 8 Nurse Visit | wave_8_elsa_nurse_data_eul_v1.dta | SN 5050 |
 | HCAP wave 1 | hcap_2018_eul_respondent_archive.dta | SN 8502 | 
 
-**Raw data variables should include:**
+**Raw data variables should include:**  
 * The list (A or B)
 * The 15 items for List A 
 * The 15 items for List B
 * Other variables about tests administration (if any)
 
-**Derived variables include:**
+**Derived variables include:**  
 * The list (A or B) if not included in the raw data
 * The score for set 1 (0 to 3) (intermediate variable)
 * The score for set 2 (0 to 3) (intermediate variable)
 * The Number Series score (summary variable)
 * The standard error (summary variable)
 
-**Repository files (attached)**
+**Repository files (attached)**  
 * The Excel files include details about the raw data variables, labels, and coding.
 * The Stata code files include data management steps and derivation steps of the intermediate and summary variables.
 
@@ -66,8 +66,7 @@ Below is a summary table with the file names:
 
 Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labelled with 'Set 3' and Set 2 corresponds to raw data labelled with 'Set 1', 'Set 2', 'Set 4' and 'Set 5'. This is evident in the Excel files which are to be used in conjunction with the STATA files.
 
-**Final important remarks**
-
+**Final important remarks**  
 *For queries*: Please email the author, Dr Assaad at s.assaad@ucl.ac.uk
 
 *Usage*: This code is provided under the creative commons license as an open source subject to citation.
