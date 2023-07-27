@@ -23,7 +23,7 @@ Here is a table summarising the above:
 | | 3 Items in version 3 | 3 Items in version 3 | |
 | Total | 15 Items | 15 Items | 30 Items |
 
-**Summary variables and derivation method:**  
+**Summary variables and derivation method**  
 
 These 30 items collected as raw data can be used to derive two summary variables for the Number Series test:
 * Number Series score
@@ -31,7 +31,7 @@ These 30 items collected as raw data can be used to derive two summary variables
   
 To derive these summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
 
-**Dataset files:**  
+**Dataset files**  
 
 The purpose of this repository is to enable the derivation of the Number Series summary variables in any dataset with the raw data adapting the STATA code as needed. 
 
