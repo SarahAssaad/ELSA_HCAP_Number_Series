@@ -14,7 +14,7 @@ The first set (labelled as 'Set 3' in the dataset but referred to as **Set 1** h
 
 Here is a table summarising the above:
 
-| | List A  | List B | |
+| | List A  | List B | Total |
 | --- | --- | --- | --- |
 | Set 1 | 3 Items | 3 Items | |
 | Set 2 | 3 Items in version 1 | 3 Items in version 1 | |
