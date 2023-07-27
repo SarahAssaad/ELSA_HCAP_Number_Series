@@ -24,6 +24,7 @@ Here is a table summarising the above:
 | Total | 15 Items | 15 Items | 30 Items |
 
 **Summary variables and derivation method:**  
+
 These 30 items collected as raw data can be used to derive two summary variables for the Number Series test:
 * Number Series score
 * Standard error
@@ -31,6 +32,7 @@ These 30 items collected as raw data can be used to derive two summary variables
 To derive these summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
 
 **Dataset files:**  
+
 The purpose of this repository is to enable the derivation of the Number Series summary variables in any dataset with the raw data adapting the STATA code as needed. 
 
 Two examples of this derivation are provided in the ELSA and ELSA-HCAP studies (please see the table below for the dataset files). Both files are available for download from the UK Data Services website https://ukdataservice.ac.uk/  
@@ -67,6 +69,7 @@ Below is a summary table with the file names:
 Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labelled with 'Set 3' and Set 2 corresponds to raw data labelled with 'Set 1', 'Set 2', 'Set 4' and 'Set 5'. This is evident in the Excel files which are to be used in conjunction with the STATA files.
 
 **Final important remarks**  
+
 *For queries*: Please email the author, Dr Assaad at s.assaad@ucl.ac.uk
 
 *Usage*: This code is provided under the creative commons license as an open source subject to citation.
