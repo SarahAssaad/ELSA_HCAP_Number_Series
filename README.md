@@ -10,7 +10,11 @@ The number series test is used to measure **quantitative reasoning.**
 
 It consists of administering 2 sets of 3 items (or questions) each, making a total of 6 questions per participant. 
 
-The first set (referred to as **Set 1** hereafter) is administered to all participants and consists of 3 items (questions 1, 2 and 3) in increasing order of difficulty. Depending on the score of Set 1 (0 to 3), the participant is routed to 1 of 4 available versions of the second set (referred to as **Set 2** hereafter) with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items in the dataset is 3 items for Set 1 + (3 items x4 sets) for Set 2 = 15 items. The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either lists at the point of administration.
+The first set (referred to as **Set 1** hereafter) is administered to all participants and consists of 3 items (questions 1, 2 and 3) in increasing order of difficulty. Depending on the score of Set 1 (0 to 3), the participant is routed to 1 out of 4 available versions of the second set (referred to as **Set 2** hereafter) with varying levels of difficulty. Set 2 also consists of 3 items and its score ranges from 0 to 3. Hence the total number of items in the dataset is:  
+
+3 items for Set 1 + (3 items x4 sets) for Set 2 = 15 items
+
+The 15 items make one list. The number series test is available in 2 lists (List A and List B) with 15 items each and participants are randomised into either lists at the point of administration.
 
 Here is a table summarising the above:
 
