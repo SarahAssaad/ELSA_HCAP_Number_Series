@@ -33,7 +33,7 @@ These 30 items available as raw data can be used to derive two summary variables
 * Number Series score
 * Standard error
   
-To derive these summary variables we used the Health and Retirement Study (HRS) 2012 Number Series Code originally developed in SAS software.
+To derive these summary variables we used the Health and Retirement Study (HRS) 2010 Number Series Code originally developed in SAS software.
 
 **Dataset files**  
 
