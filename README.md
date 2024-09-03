@@ -33,7 +33,9 @@ These 30 items available as raw data can be used to derive two summary variables
 * Number Series score
 * Standard error
   
-To derive these summary variables we used the Health and Retirement Study (HRS) 2010 Number Series Code originally developed in SAS software.
+To derive these summary variables we used the Health and Retirement Study (HRS) Number Series Code originally developed in SAS software:
+* The HRS 2010 version code
+* The HRS 2012 version code (recommended for use)
 
 **Dataset files**  
 
@@ -61,21 +63,22 @@ Two examples of this derivation are provided in the ELSA and ELSA-HCAP studies (
 
 **Repository files (attached)**  
 * The Excel files include details about the raw data variables, labels, and coding (value labels).
-* The Stata code files include data management steps and derivation steps of the intermediate and summary variables.
+* The Stata code files include data management and derivation steps of the intermediate and summary variables.
 
 Below is a summary table with the file names:
 
 | Study | STATA file | Excel file |
 |---|---|---|
-| ELSA | Number_series_elsa.do | NS_variables_elsa.xlsx |
+| ELSA | Number_series_elsa_HRS2010.do | NS_variables_elsa.xlsx |
+|      | Number_series_elsa_HRS2012.do |                        |
 | HCAP | Number_series_hcap.do | NS_variables_hcap.xlsx |
 
-Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labeled with 'Set 3', and Set 2 corresponds to raw data labeled with 'Set 1', 'Set 2', 'Set 4', and 'Set 5'. This is evident in the Excel files which are to be used in conjunction with the STATA files.
+Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labelled with 'Set 3', and Set 2 corresponds to raw data labelled with 'Set 1', 'Set 2', 'Set 4', and 'Set 5'. This is evident in the Excel files to be used in conjunction with the STATA files.
 
 **Final important remarks**  
 
 *For queries*: Please email the author, Dr Assaad at s.assaad@ucl.ac.uk
 
-*Usage*: This code is provided under the creative commons license as an open source subject to citation.
+*Usage*: This code is provided under the Creative Commons license as an open source subject to citation.
 
 *Citation*:  Assaad S. 2023. ELSA-HCAP study: Derivation of the summary variables for the Number Series Test. STATA 17 code, version 1.0. 
