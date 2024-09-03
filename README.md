@@ -69,9 +69,9 @@ Below is a summary table with the file names:
 
 | Study | STATA file | Excel file |
 |---|---|---|
-| ELSA | Number_series_elsa_HRS2010.do | NS_variables_elsa.xlsx |
+| ELSA | Number_series_elsa_HRS2010.do | NS_variables.xlsx (sheet 1) |
 |      | Number_series_elsa_HRS2012.do |                        |
-| HCAP | Number_series_hcap.do | NS_variables_hcap.xlsx |
+| HCAP | Number_series_hcap.do | NS_variables.xlsx (sheet 2) |
 
 Note that in the datasets for ELSA and HCAP, Set 1 corresponds to raw data labelled with 'Set 3', and Set 2 corresponds to raw data labelled with 'Set 1', 'Set 2', 'Set 4', and 'Set 5'. This is evident in the Excel files to be used in conjunction with the STATA files.
 
