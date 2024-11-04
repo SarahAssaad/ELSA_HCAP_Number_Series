@@ -63,7 +63,7 @@ tab Set1A Set1B, m
 
 //step 3: generate the second set score (2 variables based on list 1 or 2)
 *Set2A and Set2B
-egen Set2A= rowtotal(NSA12_Set1Item2_sc NSA13_Set1Item3_sc NSA21_Set2Item1_sc NSA22_Set2Item2_sc NSA23_Set2Item3_sc NSA41_Set4Item1_sc NSA42_Set4Item2_sc NSA43_Set4Item3_sc NSA51_Set5Item1_sc NSA52_Set5Item2_sc NSA53_Set5Item3_sc), missing
+egen Set2A= rowtotal(NSA11_Set1Item1_sc NSA12_Set1Item2_sc NSA13_Set1Item3_sc NSA21_Set2Item1_sc NSA22_Set2Item2_sc NSA23_Set2Item3_sc NSA41_Set4Item1_sc NSA42_Set4Item2_sc NSA43_Set4Item3_sc NSA51_Set5Item1_sc NSA52_Set5Item2_sc NSA53_Set5Item3_sc), missing
 
 egen Set2B= rowtotal(NSB11_Set1Item1_sc NSB12_Set1Item2_sc NSB13_Set1Item3_sc NSB21_Set2Item1_sc NSB22_Set2Item2_sc NSB23_Set2Item3_sc NSB41_Set4Item1_sc NSB42_Set4Item2_sc NSB43_Set4Item3_sc NSB51_Set5Item1_sc NSB52_Set5Item2_sc NSB53_Set5Item3_sc), missing
 
